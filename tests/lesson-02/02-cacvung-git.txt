@@ -1,0 +1,16 @@
+Trả lời: 
+Sau khi thao tác 1 loạt các lệnh, các file tồn tại ở các vùng như sau: 
+    1. Vùng Working Directory
+    - file2, file3
+    2. Vùng Staging
+    - Không có file nào
+    3. VÙng Repo
+    - file1 với 2 lần commit
+
+Giải thích: 
+a. Tạo 3 file: file1, file2, file3
+b. Chạy lệnh: git init  ->> đưa 3 file lên git quản lý
+c. Chạy lệnh: git commit -m”init project” ->> không có file nào ở vùng Staging và Commit do chưa file nào được add vào cùng Staging
+d. Chạy lệnh: git add file1 ->> đưa file1 vào vùng Staging
+e. Chạy lệnh: git commit -m”add file1” ->> commit file1 lên Repo
+f. Chạy lệnh: git commit -m”add file” ->> commit file1 lên Repo

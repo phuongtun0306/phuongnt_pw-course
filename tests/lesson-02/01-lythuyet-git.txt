@@ -1,0 +1,4 @@
+git init: Làm 1 lần duy nhất lúc khởi tạo folder dự án
+git add <file_name>: đưa file từ vùng Working Directory sang vùng Staging
+git add .: đưa các file còn lại hiện có trong vùng Working Directory sang vùng Staging
+git commit -m “message”: đưa các file có trong vùng Staging lên vùng Repo
