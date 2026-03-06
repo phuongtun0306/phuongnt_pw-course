@@ -33,9 +33,9 @@ Cú pháp: <type>:  <short_description>
 ##2.1. Cài đặt cho tất cả các repo trên máy tính
 
 git config --global user.name ""Phuong Nguyen""
-git config --global user.email ""nguyenphuongtb3696@gmail.com""
+git config --global user.email "nguyenphuongtb3696@gmail.com"
 
 ##2.2. Trường hợp mỗi repo cần cài đặt 1 tên khác nhau (cần  thao tác tại terminal của repo đó)
 
-git config user.name ""Phuong Nguyen""
-git config user.email ""nguyenphuongtb3696@gmail.com"
+git config user.name "Phuong Nguyen"
+git config user.email "nguyenphuongtb3696@gmail.com"
