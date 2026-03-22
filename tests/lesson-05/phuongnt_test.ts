@@ -36,6 +36,21 @@
 // InTask(6);
 // InTask(7);
 
-for (let i = 1; i < 101; i++) {
-    console.log('To do ' + i);
-};
+// for (let i = 0; i < 100; i++) {
+//     i +=1
+//     console.log('To do ' + i);
+// };
+
+
+
+//Lần 1: i = 0
+
+for (let i = 0; i < 100; i ++) {
+    i +=1
+    const btnXpath = '//button[@onclick="deleteTask(' + i + ')"]' ; // xpath = //button[@onclick="deleteTask(i+1)"]
+    // console.log(btnXpath); In ra xpath của các nút Delete cần nhấn vào
+    const Delete = page.locator()
+
+
+}
+
