@@ -1,0 +1,25 @@
+I. Xpath tuyệt đối
+1. Lấy input "Họ và tên"
+/html/body/div/div/form/input[1]
+
+2. Lấy button Đăng ký
+/html/body/div/div/form/button
+
+3. Lấy hàng đầu tiên trong tbody
+/html/body/div/div/table/tbody/tr/td[1]
+
+II. Xpath tương đối
+a. Lấy input có placeholder = "Số điện thoại"
+//thread/tr/th[text()='Số Điện Thoại']
+
+b. Lấy email của "Trần Thị Bình" (hàng 2, cột 2)
+//tbody/tr[2]/td[2]
+
+c. Lấy số điện thoại của "Lê Hoàng Cường" (hàng 3, cột 3)
+//tbody/tr[3]/td[3]
+
+d. Lấy button có class="btn-register"
+//form/button[@class='btn-register']
+
+e. Lấy table có id="resultTable"
+//table[@id='resultTable']
